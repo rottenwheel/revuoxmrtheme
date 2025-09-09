@@ -329,8 +329,9 @@ code {
   line-height: 1.5em;
   /* 24px/16px */
 
-  @media (min-width: 940px) {
+  @media (max-width: 940px) {
     line-height: 1.33334em;
+    padding-left: 0 !important;
     /* 24px/18px */
   }
 }
